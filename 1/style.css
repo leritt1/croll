@@ -1,0 +1,34 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+footer {
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+a {
+    margin-right: 10px;
+    color: blue;
+}
+
+.block1 {
+    height: 600px;
+    background-color: #fff8aa;
+}
+
+.block2 {
+    height: 600px;
+    background-color: rgb(255, 156, 120);
+}
+
+.block3 {
+    height: 600px;
+    background-color: rgb(213, 194, 255);
+}

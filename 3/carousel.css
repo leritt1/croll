@@ -1,0 +1,22 @@
+.carousel {
+    overflow-x: scroll;
+    display: flex;
+}
+
+.carousel img {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    animation: grow ease-in-out;
+    animation-timeline: view(inline 50% 30%);
+    
+}
+
+@keyframes grow {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.2);
+    }
+}

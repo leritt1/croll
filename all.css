@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(254, 243, 255);
+    margin-left: 50px;
+}
+
+.hh {
+    color: rgb(126, 0, 245);
+}
+
+.links {
+    display: grid;
+    line-height: 50px;
+    font-size: larger;
+}

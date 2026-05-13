@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    height: 3000px;
+}
+
+.header {
+    height: 100vh;
+}
+
+.main-content {
+    margin-left: 500px;
+}
+
+
+.box-1 {
+    background-color: aquamarine;
+    color: white;
+    max-width: 500px;
+    margin-bottom: 100px;
+    padding: 10px;
+    line-height: 20px;
+    animation: appearance ease-in-out;
+    animation-timeline: view();
+    animation-range: entry 100% contain 50%;
+}
+
+@keyframes appearance {
+    from {
+        opacity: 0;
+        transform: scale(0.6);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.list{
+    line-height: 30px;
+}
+
+.list-item {
+    animation: bounceInRight;
+    animation-timeline: view();
+    animation-range: entry 0% cover 50%;
+}
+
+@keyframes bounceInRight {
+    from {
+        opacity: 0;
+        transform: translateX(400%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(400%);
+    }
+}
+
+.box-2 {
+    background-color: rgb(255, 127, 238);
+    color: white;
+    max-width: 500px;
+    margin-top: 100px;
+    padding: 10px;
+    line-height: 20px;
+    animation: floatUp;
+      animation-timeline: view();
+    animation-range: entry 0% cover 50%;
+}
+
+@keyframes floatUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px) scale(0.6);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
